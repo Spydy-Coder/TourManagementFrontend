@@ -46,7 +46,7 @@ export default function CreateForm() {
     };
 
     try {
-      const response = await fetch("http://localhost:8080/api/pin/create", {
+      const response = await fetch("https://safar-yr0y.onrender.com/api/pin/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

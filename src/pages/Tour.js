@@ -16,7 +16,7 @@ export default function Tour() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://localhost:8080/api/pin/display/${tourId}`,
+          `https://safar-yr0y.onrender.com/api/pin/display/${tourId}`,
           {
             method: "GET",
             headers: {

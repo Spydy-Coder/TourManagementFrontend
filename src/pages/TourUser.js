@@ -32,7 +32,7 @@ export default function TourUser() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://localhost:8080/api/pin/display/${tourId}`,
+          `https://safar-yr0y.onrender.com/api/pin/display/${tourId}`,
           {
             method: "GET",
             headers: {
@@ -55,7 +55,7 @@ export default function TourUser() {
 
   const sendOrder = async () => {
     try {
-      const response = await fetch("http://localhost:8080/api/booking/order", {
+      const response = await fetch("https://safar-yr0y.onrender.com/api/booking/order", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

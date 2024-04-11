@@ -14,7 +14,7 @@ function LoginUser() {
     console.log(decode);
 
     //Making API request to make user........
-    const res = await fetch("http://localhost:8080/api/client/login", {
+    const res = await fetch("https://safar-yr0y.onrender.com/api/client/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

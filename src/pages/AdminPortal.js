@@ -15,7 +15,7 @@ export default function AdminPortal() {
   useEffect(() => {
     let currUser = localStorage.getItem("token");
     const fetchData = async () => {
-      const response = await fetch("http://localhost:8080/api/auth/getuser", {
+      const response = await fetch("https://safar-yr0y.onrender.com/api/auth/getuser", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -38,7 +38,7 @@ export default function AdminPortal() {
     if (currUser) fetchData();
 
     const fetchPin = async () => {
-      const response = await fetch(`http://localhost:8080/api/pin/displayAll`, {
+      const response = await fetch(`https://safar-yr0y.onrender.com/api/pin/displayAll`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

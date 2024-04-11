@@ -13,7 +13,7 @@ const ShowBooking = () => {
 
     const fetchData = async () => {
       const response = await fetch(
-        `http://localhost:8080/api/booking/getorder/${tourId}`,
+        `https://safar-yr0y.onrender.com/api/booking/getorder/${tourId}`,
         {
           method: "GET",
           headers: {
@@ -40,7 +40,7 @@ const ShowBooking = () => {
     const fetchUserData = async () => {
       try {
         const response = await fetch(
-          `http://localhost:8080/api/pin/display/${tourId}`,
+          `https://safar-yr0y.onrender.com/api/pin/display/${tourId}`,
           {
             method: "GET",
             headers: {
