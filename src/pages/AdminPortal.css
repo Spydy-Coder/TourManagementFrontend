@@ -1,0 +1,27 @@
+.menu-item:hover {
+  background-color: wheat;
+}
+.welcome-user {
+  background-image: url("../images/flower-1.jpg");
+  background-size: contain; /* Ensure the background covers the entire element */
+  background-repeat: no-repeat;
+  width: 100%; /* Set the width to 100% of the viewport width */
+  height: 60px; /* Set the height to 100% of the viewport height */
+  /* Additional styles */
+  margin: 0; /* Remove any default margins */
+  padding: 0; /* Remove any default padding */
+  font-size: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.welcome-user .welcome-text {
+  font-family: "Noto Serif Old Uyghur", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  margin-left: 180px;
+  letter-spacing: 2px;
+}
+
+

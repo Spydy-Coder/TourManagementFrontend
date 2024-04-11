@@ -1,0 +1,28 @@
+.first-heading {
+  letter-spacing: 6px;
+  color: #f89191;
+}
+
+.second-heading {
+  color: #fa4848;
+  letter-spacing: 2px;
+}
+
+.world-img {
+  height: 400px;
+  width: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.world-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.icons {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icons:hover {
+  transform: scale(1.15);
+}

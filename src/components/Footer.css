@@ -1,0 +1,14 @@
+.footer .brand-name {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.footer {
+  background: linear-gradient(to right, #fa6363, #ffb89a);
+}
+.copyright {
+  background: linear-gradient(to right, #f43131, #fab491);
+}

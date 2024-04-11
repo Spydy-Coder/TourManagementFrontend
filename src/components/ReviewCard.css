@@ -1,0 +1,19 @@
+.review-card .heading-text {
+  text-align: center;
+  color: #fe5252;
+  font-size: 18px;
+}
+
+.review-card .body-text {
+  font-size: 13px;
+  text-align: center;
+}
+
+.review-card .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 20px rgba(255, 199, 199, 0.941);
+}
+
+.review-card .card:hover {
+  transform: scale(1.05);
+}

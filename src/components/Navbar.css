@@ -1,0 +1,41 @@
+.navbar .brand-name {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fb6b6b;
+  letter-spacing: 1px;
+}
+button {
+  border: none;
+  background: linear-gradient(to right, #fe5252, #ffb89a);
+}
+
+button:hover {
+  background: linear-gradient(to right, #ff2323, #ff9b70);
+}
+
+.navbar .brand-name:hover {
+  color: #fb6b6b;
+}
+
+.navbar .nav-button {
+  width: 100px;
+
+  color: #fff; /* Set text color to contrast with the background */
+  border: none; /* Remove default button border */
+  font-size: 18px;
+}
+.navbar .nav-button:hover {
+  background-color: #f43131;
+  color: #fff;
+}
+
+.navbar .navbar-nav {
+  font-family: "Noto Serif Old Uyghur", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar .logout{
+  width: 50px;  
+}

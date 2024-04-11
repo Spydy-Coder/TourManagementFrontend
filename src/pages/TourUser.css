@@ -1,0 +1,33 @@
+.touruserind .tour-card-head {
+  color: #ff5555;
+  letter-spacing: 2px;
+}
+
+.touruserind .tourcard {
+  box-shadow: 0 0 20px rgba(255, 199, 199, 0.941);
+}
+
+.touruserind .buy-btn {
+  min-width: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2px;
+  border: none;
+}
+
+.touruserind .bottom .inc-btn {
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background: white !important;
+  border: none;
+}
+
+.touruserind .personholder{
+    height: 28px;
+    min-width: 28px;
+    border:  solid rgb(239, 63, 63);
+    border-radius: 3px;
+}

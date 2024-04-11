@@ -1,0 +1,22 @@
+.intro .intro-button{
+    border:none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 450;
+
+}
+
+.intro .display-3{
+    font-weight: 600;
+}
+
+.intro p{
+    text-align: justify;
+    
+}
+
+.intro .intro-button:hover{
+    background-color: #f43131;
+    color: #fff;
+}
+

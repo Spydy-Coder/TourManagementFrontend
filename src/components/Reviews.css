@@ -1,0 +1,39 @@
+.bg {
+  background-image: url("../images/bg-transformed.jpeg");
+  background-size: cover; /* Ensure the background covers the entire element */
+  background-repeat: no-repeat;
+  width: 100vw; /* Set the width to 100% of the viewport width */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  /* Additional styles */
+  margin: 0; /* Remove any default margins */
+  padding: 0; /* Remove any default padding */
+  font-size: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.bg .first-heading {
+  color: rgb(255, 247, 224);
+  margin-left: 60px;
+}
+
+.bg .brand-name {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(255, 247, 224);
+  letter-spacing: 1px;
+}
+
+.bg .second-heading {
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin-left: 200px;
+  font-weight: bold;
+}
+
+.bg .footer-text {
+  font-size: 15px;
+}
+
+

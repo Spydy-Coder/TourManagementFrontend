@@ -1,0 +1,10 @@
+button{
+    border:none;
+    background: linear-gradient(to right, #fe5252, #ffb89a);
+}
+
+button:hover{
+    border: none;
+    background: linear-gradient(to right, #ff2323, #ff9b70);
+}
+

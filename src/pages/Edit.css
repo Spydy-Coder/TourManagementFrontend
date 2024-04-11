@@ -1,0 +1,19 @@
+.form-container {
+  background-image: url("../images/fom-container-transformed.jpeg");
+  background-size: cover; /* Ensure the background covers the entire element */
+  background-repeat: no-repeat;
+  width: 100vw; /* Set the width to 100% of the viewport width */
+  min-height: 100vh; /* Set the height to 100% of the viewport height */
+  /* Additional styles */
+  margin: 0; /* Remove any default margins */
+  padding: 0; /* Remove any default padding */
+  /* font-size: 50px; */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  /* border-radius: 20px; */
+}
+
+.form-container .form-heading {
+  letter-spacing: 2px;
+  color: #fff;
+  font-weight: bold;
+}

@@ -1,0 +1,22 @@
+.tourcard .price {
+  font-size: 20px;
+}
+.tourcard .tour-name {
+  letter-spacing: 1px;
+}
+.tour-card .tour-description {
+  text-align: justify;
+}
+.tourcard .card-image img {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.btn {
+  border: none;
+  background: linear-gradient(to right, #fe5252, #ffb89a);
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #ff2323, #ff9b70);
+}

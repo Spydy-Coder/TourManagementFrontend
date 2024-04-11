@@ -1,0 +1,27 @@
+.create-form{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.92;
+    box-shadow: 0 0 20px rgba(255, 199, 199, 0.941);
+    border-radius: 10px;
+    min-height: 80%;
+    min-width: 80%;
+}
+
+.create-form .form-button{
+    color: rgb(30, 28, 28);
+    border: none;
+    min-width: 100px;
+    font-weight: bold;
+}
+
+.create-form input:hover{
+    border-color: red;
+}
+
+.create-form label{
+    letter-spacing: 1px;
+}
+
+.create-form textarea:hover{
+    border-color: red;
+}
